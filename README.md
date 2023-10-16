@@ -292,6 +292,7 @@ Membuat file baru dengan nama lab3_form.html
 ```
 <h1> Membuat Form </h1>
 
+
 <style>
     form p>label {
       display: inline-block;
@@ -333,6 +334,7 @@ Membuat file baru dengan nama lab3_form.html
     </fieldset>
   </form>
 </body>
+
 
 ![image-6](https://github.com/twn304/Lab3Web./assets/115573041/275047af-16cb-4215-b6c1-6bde62f0da80)
 
