@@ -290,51 +290,6 @@ Membuat file baru dengan nama lab3_form.html
   </form>
 </body>
 ```
-<h1> Membuat Form </h1>
-
-
-<style>
-    form p>label {
-      display: inline-block;
-      width: 100px;
-    }
-
-    form input[type="text"],
-    form textarea {
-      border: 2px solid #197a43;
-    }
-
-    form input[type="submit"] {
-      border: 1px solid #197a43;
-      background-color: #197a43;
-      color: #fff;
-      font-weight: bold;
-      padding: 5px 15px;
-    }
-</style>
-<form action="proses.php" method="post">
-    <fieldset>
-      <legend>Data Pelanggan</legend>
-      <p>
-        <label for="nama">Nama</label>
-        <input type="text" name="nama" id="nama" />
-      </p>
-      <p>
-        <label for="alamat">Alamat</label>
-        <textarea name="alamat" id="alamat" cols="20" rows="3"></textarea>
-      </p>
-      <p>
-        <label>Jeniss Kelamin</label>
-        <input type="radio" name="kelamin" id="jk_l" value="L" /><label for="jk_l">Laki-Laki</label>
-        <input type="radio" name="kelamin" id="jk_p" value="P" /><label for="jk_p">Perempuan</label>
-      </p>
-      <p>
-        <input type="submit" value="Login" />
-      </p>
-    </fieldset>
-  </form>
-</body>
-
 
 ![image-6](https://github.com/twn304/Lab3Web./assets/115573041/275047af-16cb-4215-b6c1-6bde62f0da80)
 
